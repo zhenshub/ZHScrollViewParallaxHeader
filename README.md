@@ -4,7 +4,7 @@ A Parallax effect for scrollView. you can setup a property and easy use Parallax
 ##### Usage:
 
 ```
-	self.tableView.parallaxHeader.height = 200.f;
+    self.tableView.parallaxHeader.height = 200.f;
     self.tableView.parallaxHeader.delegate = self;
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"stars"]];
     imageView.contentMode = UIViewContentModeScaleAspectFill;
