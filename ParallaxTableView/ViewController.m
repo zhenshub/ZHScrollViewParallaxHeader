@@ -33,7 +33,7 @@
     KKGFakeNavigationBar *naviBar = [KKGFakeNavigationBar new];
     [self.view addSubview:naviBar];
     self.naviBar = naviBar;
-    self.tableView.parallaxHeader.height = 100.f;
+    self.tableView.parallaxHeader.height = 200.f;
     self.tableView.parallaxHeader.delegate = self;
 //    self.tableView.mj_header = [MJRefreshNormalHeader new];
     UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"stars"]];
